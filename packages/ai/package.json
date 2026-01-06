@@ -1,0 +1,21 @@
+{
+    "name": "@agent-protocol/ai",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w"
+    },
+    "peerDependencies": {
+        "react": ">=18",
+        "@agent-protocol/core": "workspace:*"
+    },
+    "dependencies": {
+        "@agent-protocol/core": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/react": "^18",
+        "typescript": "^5"
+    }
+}
